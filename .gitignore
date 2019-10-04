@@ -1,6 +1,6 @@
 classImages
 */.metadata/*
-**/.classpath
+**/**/.classpath
 **/.project
-**/.settings
-**/classes/*
+**/**/.settings/*
+**/**/classes/*
