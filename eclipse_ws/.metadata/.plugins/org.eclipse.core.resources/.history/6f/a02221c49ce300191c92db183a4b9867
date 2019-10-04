@@ -1,0 +1,17 @@
+package com.itautomation.training.variable;
+
+public class InstanceVariablesDemo 
+{
+	
+	int x; // Global variable and non-static ==> instance variable(non-static member)
+	
+		
+	public static void main(String[] args) 
+	{
+		
+		InstanceVariablesDemo obj1 = new InstanceVariablesDemo();
+		InstanceVariablesDemo obj1 = new InstanceVariablesDemo();
+			
+	}
+
+}

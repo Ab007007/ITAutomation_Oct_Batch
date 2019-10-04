@@ -1,0 +1,69 @@
+Steps : 
+1. Download the jdk software
+	https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+2. Doubleclick and follow the instructions
+3. C:\Program Files\Java
+4. Set Environment Variables -  to execute the commands from any location
+5. execute javac from any location.
+
+
+Editors : 
+eclipse
+intellij community edition
+netbeans
+
+Download Eclipse:
+1. go to https://www.eclipse.org/downloads/
+2. click on download packages -> https://www.eclipse.org/downloads/packages/
+3. 
+
+
+DATA TYPES :
+1. Primitive Data type -> boolean,char, byte,short,int,long, float,double ...
+	
+2. Derived Data type -> Objects,Arrays
+
+
+Variables : 
+any name which store the data(Value)
+Global variables
+Local Variables
+
+
+
+Package : 
+Name space used to store the program in an organized way.
+
+com or org
+companyname
+projectname
+modulename
+submodulename
+classname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

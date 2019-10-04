@@ -1,0 +1,23 @@
+package com.itautomation.training.constructors;
+
+public class PersonManager 
+{
+	
+	public static void main(String[] args)
+	{
+		Person p1 = new Person();
+		
+		
+	}
+
+}
+
+
+class Person
+{
+	String name;
+	int age;
+	double height;
+	double weight;
+	String country;
+}

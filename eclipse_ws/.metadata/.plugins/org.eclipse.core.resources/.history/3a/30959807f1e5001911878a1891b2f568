@@ -1,0 +1,5 @@
+package com.itautomation.training.interfaces;
+
+public class Person {
+
+}

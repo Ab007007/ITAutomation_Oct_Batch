@@ -1,0 +1,10 @@
+package com.itautomation.training.accessmodifier;
+
+public class Circle extends GeometricFunctions
+{
+	@Override
+	public void area() {
+		// TODO Auto-generated method stub
+		
+	}
+}

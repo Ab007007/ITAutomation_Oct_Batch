@@ -1,0 +1,20 @@
+public class HelloWorld 
+{
+	
+	//main thread
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello All, Welcome to java programming..!!!!");
+		
+
+	}
+	
+	public static void test()
+	{
+		System.out.println("test method..");
+	}
+	
+	
+
+}
+

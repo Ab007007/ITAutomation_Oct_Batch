@@ -1,0 +1,26 @@
+
+public class HelloWorld 
+{
+/*
+ * 
+ * Variables
+	Methods
+	Constructors
+	Static initialization Block
+	Instance initialization Block 
+	
+ */
+	
+
+}
+
+class Test
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello All, Welcome to java programming..!!!!");
+
+	}
+
+}
+

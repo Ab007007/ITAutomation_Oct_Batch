@@ -1,0 +1,23 @@
+public class HelloWorld 
+{
+	
+	//main thread
+// [AS]   [AM]    [RT] {name} [arguments]	
+	public static void main1(String[] args) 
+	{
+		System.out.println("Hello All, Welcome to java programming..!!!!");
+		test();
+		System.out.println("=== Main endded===");
+		
+
+	}
+	
+	public static void test()
+	{
+		System.out.println("test method..");
+	}
+	
+	
+
+}
+

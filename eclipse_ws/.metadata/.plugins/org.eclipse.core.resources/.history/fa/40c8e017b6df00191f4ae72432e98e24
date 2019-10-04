@@ -1,0 +1,19 @@
+
+public class HelloWorld 
+{
+/*
+ * 
+ * Variables
+	Methods
+	Constructors
+	Static initialization Block
+	Instance initialization Block
+	
+ */
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

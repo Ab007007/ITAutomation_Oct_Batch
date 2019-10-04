@@ -1,0 +1,13 @@
+package com.itautomation.training.interfaces;
+
+public class Employee extends Person implements LivingElements
+{
+	String employeeID;
+	String employeePhone;
+	
+	@Override
+	public void isLiving() {
+		System.out.println("Yes Employee is a living element on Earth , and his max age is " + MAX_AGE);
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.itautomation.training.accessmodifier;
+
+public abstract class GeometricFunctions 
+{
+	
+	//public abstract void area();
+	
+
+	public void welcomeMessage()
+	{
+		System.out.println("Geometry class ");
+	}
+}

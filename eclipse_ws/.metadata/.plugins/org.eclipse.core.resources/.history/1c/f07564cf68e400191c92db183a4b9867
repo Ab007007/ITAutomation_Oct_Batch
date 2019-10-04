@@ -1,0 +1,22 @@
+package com.itautomation.training.methods;
+
+public class NewOverridingDemo extends OverridingDemo
+{
+	
+	public void test()
+	{
+		System.out.println("I'm from New OverridingDemo Class ");
+	}
+
+	public static void main(String[] args) {
+		
+		NewOverridingDemo nd = new NewOverridingDemo();
+		OverridingDemo od = new OverridingDemo();
+		
+		OverridingDemo superObj = new NewOverridingDemo();
+		
+		
+		nd.test();
+		
+	}
+}

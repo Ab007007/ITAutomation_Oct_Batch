@@ -1,0 +1,13 @@
+package com.itautomation.training.variable;
+
+public class StaticBlock {
+
+	static
+	{
+		System.out.println("i'm executing first..");
+	}
+	public static void main(String[] args) {
+		System.out.println("main started");
+		System.out.println("main ended");
+	}
+}

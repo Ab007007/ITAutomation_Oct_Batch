@@ -1,0 +1,11 @@
+package com.itautomation.training.accessmodifier;
+
+public class Circle extends GeometricFunctions
+{
+	radi
+	@Override
+	public void area() {
+		
+		
+	}
+}

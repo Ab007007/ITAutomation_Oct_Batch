@@ -1,0 +1,23 @@
+package com.itautomation.training.methods;
+
+public class MethodsDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+//[access specifier] [access modifier] returntype name([arguments separated by ','])
+//	{
+		
+//	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

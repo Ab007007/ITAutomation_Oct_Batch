@@ -1,0 +1,14 @@
+package com.itautomation.training.variable;
+
+public class InstanceVariablesDemo 
+{
+	
+	int x;
+	
+		
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

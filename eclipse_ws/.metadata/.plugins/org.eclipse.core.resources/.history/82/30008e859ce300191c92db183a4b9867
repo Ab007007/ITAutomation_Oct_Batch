@@ -1,0 +1,15 @@
+package com.itautomation.training.variable;
+
+public class InstanceVariablesDemo 
+{
+	
+	int x; // Global variable and non-static ==> instance variable
+	
+		
+	public static void main(String[] args) 
+	{
+		System.out.println(x);
+			
+	}
+
+}

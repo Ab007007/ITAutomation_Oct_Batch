@@ -1,0 +1,21 @@
+package com.itautomation.training.accessmodifier;
+
+public class Circle extends GeometricFunctions
+{
+	//double radius = 3;
+	final double PI = 3.142;
+	@Override
+	public void area() {
+		
+		System.out.println("Area of Circle is " + (PI* this.radius * this.radius) );
+	}
+	
+	public Circle() {
+		this.radius = 3;
+	}
+	
+	public Circle(double radius)
+	{
+		this.radius = radius;
+	}
+}

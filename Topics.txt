@@ -1,0 +1,105 @@
+Java
+  |
+  - Basic Syntax
+  - OOPS Concept(class,object,abstraction,encapsulation
+				polymorphism,inheritence)
+  - data types
+  - variables 
+		1. local variables
+		2. global variables
+		3. constants
+   - methods
+   - Access specifiers (private,default, protected, public)
+   - Access modifiers ( static, final , abstract, syncronized)
+   - looping statements
+   - conditional statements
+
+Strings*****
+	- functions/methods
+	- One program
+	
+Arrays
+Thread
+	1. Runnable 
+	2. Thread 
+File Handling:
+	1. InputStream
+	2. OutputStram
+
+Exception Handling:
+	1. try
+	2. catch
+	3. finally
+	4. throw
+	5. throws
+
+Collections:
+	1. List
+	2. Set
+	3. Map
+	
+Generics:
+
+
+
+================END=============================	
+What is Automation Testing?
+Why Automation Testing is required????
+What are the tools available for Automation Testing??   
+Selenium:
+	1. Selenium IDE
+	2. Selenium RC
+	3. Selenium WebDriver
+		Identification mechanism:
+			1. id
+			2. name
+			3. classname
+			4. tagname
+			5. linktext
+			6. partiallink text
+			7. css
+			8. xpath
+				- basic
+				- using RE
+				- using functions/methods
+				- axes functions/methods
+					* following-sibling
+					* preceeding-sibling
+					* following 
+					* preceeding 
+					* ancestor
+					* parent
+					* child
+	4. Selenium Grid
+	
+	TestNG
+	POM
+
+	Maven
+	Jenkins
+	
+	Zalenium
+	
+	===========================END OF Selenium==============
+	
+	Appium -> Android / IOS
+	topics
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+

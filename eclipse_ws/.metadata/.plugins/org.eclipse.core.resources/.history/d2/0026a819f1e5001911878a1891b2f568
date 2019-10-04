@@ -1,0 +1,6 @@
+package com.itautomation.training.interfaces;
+
+public interface LivingElements {
+	
+
+}

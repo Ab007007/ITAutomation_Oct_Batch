@@ -1,0 +1,18 @@
+package com.itautomation.training.accessmodifier;
+
+public class GeometricManager {
+	
+	public static void main(String[] args) {
+		
+		Circle c  = new Circle();
+		c.area();
+		
+		Triangle t = new Triangle();
+		t.area();
+				
+		
+		
+		
+	}
+
+}
