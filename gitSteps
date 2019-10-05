@@ -1,0 +1,11 @@
+
+1. download git for windows
+2. create git account from https://github.com
+3. create a folder in your laptop
+4. open gitbash-> cd to newly created directory
+5. type git clone https://github.com/AravindaHB/ITAutomation_Oct_Batch.git
+
+Every day to get the latest code ,
+
+cd to ITAutomation_Oct_Batch
+git pull
