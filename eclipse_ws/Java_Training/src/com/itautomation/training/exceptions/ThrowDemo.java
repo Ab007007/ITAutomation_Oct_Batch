@@ -23,11 +23,11 @@ public class ThrowDemo
 			{
 				try
 				{
-					throw new Exception();
+					throw new BalanceInSufficientException(balance,withdraw);
 				}
 				catch (Exception e)
 				{
-					System.out.println("Please check your balance before performing the transaction");
+					System.out.println("Exception!!!!!");
 				}
 			}
 			else
@@ -36,7 +36,7 @@ public class ThrowDemo
 				balance = tempBalance;
 			}
 			
-			System.out.println("Your balance is " + balance);
+			System.out.println("Your balance is " + (int)balance);
 			System.out.println("Do you want to contiue");
 			choice = sc.next();
 		}while(choice.equalsIgnoreCase("yes"));
