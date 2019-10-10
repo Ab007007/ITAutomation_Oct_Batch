@@ -3,7 +3,7 @@ package com.itautomation.training.constructors;
 public class PersonManager 
 {
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws InterruptedException
 	{
 		Person p1 = new Person();
 		p1.name = "Xyz";
@@ -20,7 +20,7 @@ public class PersonManager
 		System.out.println(p1);	
 		System.out.println(p2);
 		
-		
+		Thread.sleep(2000);
 		
 		Person p3 = new Person("Smith", 45, 6.0, 80);
 		System.out.println(p3);
