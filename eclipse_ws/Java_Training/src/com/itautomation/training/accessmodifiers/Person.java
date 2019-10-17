@@ -12,5 +12,10 @@ public class Person
 	}
 
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Person Name " + this.name + "\n Address "+ residentialAddress + "\n Phone number " + phoneNumber;
+	}
 
 }
