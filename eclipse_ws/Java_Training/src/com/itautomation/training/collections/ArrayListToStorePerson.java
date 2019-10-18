@@ -36,7 +36,7 @@ public class ArrayListToStorePerson
 		
 		//ald.printUsingIterator(al);
 		//ald.printCollectionUsingForEach(al);
-		ald.printCollection(al);
+		MyUtils.printCollection(al);
 	}
 
 }
