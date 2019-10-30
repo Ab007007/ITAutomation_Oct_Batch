@@ -1,6 +1,2 @@
-classImages
-*/.metadata/*
-**/**/.classpath
-**/.project
-**/**/.settings/*
-**/**/classes/*
+eclipse_ws/.metadata/*
+eclipse_ws/Java_Training/classes/
