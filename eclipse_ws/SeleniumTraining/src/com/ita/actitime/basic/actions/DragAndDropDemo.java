@@ -20,6 +20,14 @@ public class DragAndDropDemo extends ActitimeUtils
 		WebElement destWebEle = driver.findElement(By.id("droppable"));
 		act.dragAndDrop(srcWebEle, destWebEle).perform();
 		
+		//act.contextClick(); //right click
+		/*
+		 * act.doubleClick(); 
+		 * act.doubleClick(driver.findElement(By.id("")));
+		 * act.clickAndHold() 
+		 * 
+		 * act.release();
+		 */
 		
 	}
 }
