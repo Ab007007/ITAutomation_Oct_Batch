@@ -29,16 +29,16 @@ public class WebDriverUtils
 
 	/**
 	 * @author Aravinda
-	 * @param identifer - id,name, classname, tagname,linktext,partiallinktext,css,xpath
+	 * @param identifier - id,name, classname, tagname,linktext,partiallinktext,css,xpath
 	 * @param value - correstponding value associated to identifier
 	 * @return - WEbElement or null 
 	 */
-	public static WebElement getMyElement(String identifer, String value)
+	public static WebElement getMyElement(String identifier, String value)
 	{
 		
 		WebElement ele  = null;
-		System.out.println("Finding Element using " + identifer + " and its value " + value);
-		switch (identifer) 
+		System.out.println("Finding Element using " + identifier + " and its value " + value);
+		switch (identifier) 
 		{
 		case "id":
 			ele = driver.findElement(By.id(value));
@@ -77,27 +77,33 @@ public class WebDriverUtils
 	
 	/**
 	 * @author Aravinda
-	 * @param identifer
+	 * @param identifier
 	 * @param value
 	 */
-	public static void clickOnElement(String identifer, String value)
+	public static void clickOnElement(String identifier, String value)
 	{
-		System.out.println("clicking on element with identifier " + identifer + " and " + value);
-		getMyElement(identifer, value).click();
+		System.out.println("clicking on element with identifier " + identifier + " and " + value);
+		getMyElement(identifier, value).click();
 		
 	}
 	
 	
 	
-	public static void typeOnElement(String identifer, String value,String textToType)
+	public static void typeOnElement(String identifier, String value,String textToType)
 	{
-		System.out.println("typing on element with identifier " + identifer + " and " + value);
-		getMyElement(identifer, value).sendKeys(textToType);
+		System.out.println("typing on element with identifier " + identifier + " and " + value);
+		getMyElement(identifier, value).sendKeys(textToType);
 		
 	}
 	
 	
-	
+	public static String getMyElementText(String identifier,String value)
+	{
+		WebElement ele  =  getMyElement(identifier, value);
+		String text = ele.getText();
+		System.out.println("Got Text On ELE - "  +text);
+		return text;
+	}
 	
 	
 	

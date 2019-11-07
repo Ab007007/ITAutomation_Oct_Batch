@@ -30,7 +30,6 @@ public class BrowserActions {
 		driver.navigate().forward();
 		Thread.sleep(2000);
 		driver.navigate().refresh();
-		
 		System.out.println("END");
 		
 		
