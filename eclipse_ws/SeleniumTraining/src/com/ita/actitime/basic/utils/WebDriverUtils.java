@@ -26,7 +26,7 @@ public class WebDriverUtils
 		return driver;
 	}
 
-	
+
 	/**
 	 * @author Aravinda
 	 * @param identifer - id,name, classname, tagname,linktext,partiallinktext,css,xpath
