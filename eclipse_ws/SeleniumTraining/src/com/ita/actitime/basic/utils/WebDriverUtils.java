@@ -105,8 +105,18 @@ public class WebDriverUtils
 		return text;
 	}
 	
-	
-	
+	public static void staticWait(int ms)
+	{
+		System.out.println("STATIC WAIT FOR " + ms);
+		try 
+		{
+			Thread.sleep(ms);
+		} catch (InterruptedException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 	
 	
 	

@@ -84,7 +84,24 @@ public class ActitimeUtils extends WebDriverUtils {
 		
 	}
 	
+	public static void searchCustomerToDelete(String customerName) {
+		typeOnElement("xpath", "//div[@class='customersProjectsPanel']//input[@placeholder='Start typing name ...']", customerName);
+		Actions act = new Actions(driver);
+		act.moveToElement(getMyElement("xpath", "//div[@class='itemsContainer']//div[@class='title' and contains(text(),'" + customerName + "')]")).perform();
+		act.click(getMyElement("xpath", "//div[@class='itemsContainer']//div[@class='title' and contains(text(),'" + customerName + "')]/following-sibling::div"))
+		.perform();
+		staticWait(2000);
+	}
 	
-	
-	
+	public static void deleteCustomer() {
+		clickOnElement("xpath", "//div[@class='customerNamePlaceHolder']/following-sibling::div");
+		clickOnElement("xpath", "//div[div[@class='customerNamePlaceHolder']]/following-sibling::div[@class='dropdownContainer actionsMenu']//div[text()='Delete']");
+		clickOnElement("id", "customerPanel_deleteConfirm_submitTitle");
+		WebDriverWait wait  = new WebDriverWait(driver, 10);
+		WebElement ele = wait.until(ExpectedConditions.visibilityOf(getMyElement("xpath", "//div[@class='toast']")));
+		System.out.println("Success Message " + ele.getText());
+		wait.until(ExpectedConditions.invisibilityOf(getMyElement("xpath", "//div[@class='toast']")));
+		//getMyElement("xpath", "//div[@class='customersProjectsPanel']//input[@placeholder='Start typing name ...']").clear();
+	}
+
 }
