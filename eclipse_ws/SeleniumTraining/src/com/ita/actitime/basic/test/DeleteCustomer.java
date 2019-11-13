@@ -15,12 +15,12 @@ public class DeleteCustomer extends ActitimeUtils
 
 	static
 	{
-		driver = getMyDriver();
+		driver = getMyDriver("ff");
 	}
 	
 	public static void main(String[] args) throws IOException
 	{
-		String customerName = "ITA-FistCustomer";
+		String customerName = "ITA-EdgeCustomer";
 		System.out.println("Creating customer");
 		launch();
 		String username = FileReaderUtils.getMyPropertyValue("username"); 

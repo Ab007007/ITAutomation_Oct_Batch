@@ -86,6 +86,7 @@ public class ActitimeUtils extends WebDriverUtils {
 	
 	public static void searchCustomerToDelete(String customerName) {
 		typeOnElement("xpath", "//div[@class='customersProjectsPanel']//input[@placeholder='Start typing name ...']", customerName);
+		staticWait(2000);
 		Actions act = new Actions(driver);
 		act.moveToElement(getMyElement("xpath", "//div[@class='itemsContainer']//div[@class='title' and contains(text(),'" + customerName + "')]")).perform();
 		act.click(getMyElement("xpath", "//div[@class='itemsContainer']//div[@class='title' and contains(text(),'" + customerName + "')]/following-sibling::div"))

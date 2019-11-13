@@ -12,7 +12,6 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-import com.sun.javafx.iio.common.RoughScaler;
 
 public class ExcelUtils {
 	static String fileName = "data\\acittime-testdata.xls";

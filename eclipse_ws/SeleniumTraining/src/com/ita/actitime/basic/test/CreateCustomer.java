@@ -9,7 +9,7 @@ public class CreateCustomer extends ActitimeUtils
 {
 	static
 	{
-		driver = getMyDriver();
+		driver = getMyDriver("ff");
 	}
 	
 	public static void main(String[] args) throws IOException
@@ -21,7 +21,7 @@ public class CreateCustomer extends ActitimeUtils
 		login(username,password);
 		selectModule("Tasks");
 		clickOnNewCustomerButton();
-		createCustomer("ITA-FourthCustomer", "ITA-FourthCustomer-Desc");
+		createCustomer("ITA-EdgeCustomer", "ITA-FourthCustomer-Desc");
 		logout();
 		
 	}
