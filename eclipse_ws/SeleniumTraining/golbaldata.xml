@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Global Data Demo">
+	<parameter name="url" value="http://www.google.com"/>
+	<test name = "reading global data-1">
+		<classes>
+			<class name="testng.GlobalDataDemo"/>
+		</classes>
+	</test>
+	
+	<test name = "reading global data-2">
+		<classes>
+			<class name="testng.GlobalDataDemo2"/>
+		</classes>
+	</test>
+</suite>

@@ -18,8 +18,8 @@ public class ActitimeUtils extends WebDriverUtils {
 
 	public static void login(String un, String pwd) {
 		System.out.println("Logging into the application with " + un + " and " + pwd);
-		typeOnElement("id", "username", "admin");
-		typeOnElement("name", "pwd", "manager");
+		typeOnElement("id", "username", un);
+		typeOnElement("name", "pwd", pwd);
 		clickOnElement("id", "loginButton");
 
 		try {
