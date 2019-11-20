@@ -1,7 +1,10 @@
 package testng.tests;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -42,9 +45,17 @@ public class LoginTest
 	}
 	
 	@AfterMethod
-	public void logout()
+	public void logout(ITestResult result) throws IOException
 	{
-		ActitimeUtils.logout();
+		if(result.getStatus()==ITestResult.FAILURE)
+		{
+			ActitimeUtils.takeScreenShot("SS_" + ActitimeUtils.getCurrentDateAndTime());
+		}
+		else
+		{
+			ActitimeUtils.logout();
+		}
+		
 	}
 	
 	@AfterClass

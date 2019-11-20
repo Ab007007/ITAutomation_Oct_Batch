@@ -4,6 +4,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 
 public class ActitimeUtils extends WebDriverUtils {
 	public static void launch() {
@@ -28,6 +30,8 @@ public class ActitimeUtils extends WebDriverUtils {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		Assert.assertEquals("actiTIME - Enter Time-Track", driver.getTitle());
 	}
 
 	public static void clickOnHelp() {
