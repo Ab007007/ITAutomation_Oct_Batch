@@ -1,7 +1,0 @@
-package com.itautomation.training.interfaces;
-
-public class Employee extends Person
-{
-	String employeeID;
-	String employeePhone;
-}

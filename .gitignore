@@ -1,2 +1,15 @@
 eclipse_ws/.metadata/*
-eclipse_ws/Java_Training/classes/
+eclipse_ws/Java_Training/classes
+eclipse_ws/.metadata/.plugins/
+eclipse_ws/SeleniumTraining/libs/
+eclipse_ws/SeleniumTraining/.classpath
+eclipse_ws/SeleniumTraining/.project
+eclipse_ws/SeleniumTraining/.settings/
+eclipse_ws/SeleniumTraining/ParallelRun.xml
+eclipse_ws/SeleniumTraining/grid/
+eclipse_ws/SeleniumTraining/reports/
+eclipse_ws/SeleniumTraining/screenshots/
+eclipse_ws/SeleniumTraining/ss.png
+eclipse_ws/SeleniumTraining/test-output/
+eclipse_ws/.metadata/.log
+eclipse_ws/.metadata/version.ini

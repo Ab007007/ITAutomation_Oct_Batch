@@ -1,7 +1,0 @@
-package com.itautomation.training.interfaces;
-
-public class Employee extends Person implements LivingElements
-{
-	String employeeID;
-	String employeePhone;
-}
